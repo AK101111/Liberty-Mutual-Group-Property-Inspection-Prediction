@@ -34,7 +34,7 @@ Y_test = result_X[:, 1][40000:]
 
 ###############################################################################
 # Fit regression model
-params = {'n_estimators': 500, 'max_depth': 15, 'min_samples_split': 1,
+params = {'n_estimators': 300, 'max_depth': 9, 'min_samples_split': 1,
           'learning_rate': 0.01, 'loss': 'ls'}
 clf = ensemble.GradientBoostingRegressor(**params)
 
